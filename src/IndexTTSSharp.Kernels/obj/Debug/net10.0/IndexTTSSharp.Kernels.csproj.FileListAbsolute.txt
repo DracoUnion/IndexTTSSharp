@@ -1,0 +1,11 @@
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\bin\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.deps.json
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\bin\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\bin\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\IndexTTSSharp.Kernels.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\IndexTTSSharp.Kernels.AssemblyInfoInputs.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\IndexTTSSharp.Kernels.AssemblyInfo.cs
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\IndexTTSSharp.Kernels.csproj.CoreCompileInputs.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\refint\Flygon.IndexTTSSharp.Kernels.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Kernels\obj\Debug\net10.0\ref\Flygon.IndexTTSSharp.Kernels.dll

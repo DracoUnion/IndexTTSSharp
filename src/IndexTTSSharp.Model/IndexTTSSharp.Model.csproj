@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>IndexTTS v2 CPU inference: load combined GGUF, run text+ref-audio to wav.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IndexTTSSharp.Kernels\IndexTTSSharp.Kernels.csproj" />
+    <ProjectReference Include="..\IndexTTSSharp.Gguf\IndexTTSSharp.Gguf.csproj" />
+  </ItemGroup>
+</Project>

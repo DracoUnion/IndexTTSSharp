@@ -1,0 +1,61 @@
+<Project>
+  <!--
+    Independent NuGet versions. Edit here. `dotnet pack -p:Version=` must not flow
+    into referenced projects; see Directory.Build.targets.
+  -->
+  <PropertyGroup>
+    <IndexTTSSharpGgufVersion Condition="'$(IndexTTSSharpGgufVersion)' == ''">1.0.0</IndexTTSSharpGgufVersion>
+    <IndexTTSSharpKernelsVersion Condition="'$(IndexTTSSharpKernelsVersion)' == ''">1.0.0</IndexTTSSharpKernelsVersion>
+    <IndexTTSSharpModelVersion Condition="'$(IndexTTSSharpModelVersion)' == ''">1.0.0</IndexTTSSharpModelVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Deterministic>true</Deterministic>
+    <Optimize Condition="'$(Configuration)' == 'Release'">true</Optimize>
+    <RootNamespace>Flygon.$(MSBuildProjectName)</RootNamespace>
+    <AssemblyName>Flygon.$(MSBuildProjectName)</AssemblyName>
+    <PackageId>Flygon.$(MSBuildProjectName)</PackageId>
+    <Authors>flygon</Authors>
+    <Company>Flygon</Company>
+    <PackageProjectUrl>https://github.com/flygon/IndexTTSSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/flygon/IndexTTSSharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageTags>Flygon;IndexTTS;TTS;GGUF;Audio</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryType>git</PublishRepositoryType>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true' or '$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'IndexTTSSharp.Gguf'">
+    <Version>$(IndexTTSSharpGgufVersion)</Version>
+    <IsPackable>true</IsPackable>
+    <Description>GGUF v2/v3 reader aligned to ggml tensor offsets.</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'IndexTTSSharp.Kernels'">
+    <Version>$(IndexTTSSharpKernelsVersion)</Version>
+    <IsPackable>true</IsPackable>
+    <Description>CPU kernels for IndexTTS: quantized GEMM/GEMV plus conv/norm/attention/activation primitives.</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'IndexTTSSharp.Model'">
+    <Version>$(IndexTTSSharpModelVersion)</Version>
+    <IsPackable>true</IsPackable>
+    <Description>IndexTTS v2 CPU inference: load combined GGUF, run text+ref-audio to wav.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(IsPackable)' == 'true'">
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(IsPackable)' == 'true'">
+    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="README.md" Visible="false" />
+  </ItemGroup>
+</Project>

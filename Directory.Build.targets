@@ -1,0 +1,27 @@
+<Project>
+  <!--
+    `dotnet pack -p:Version=` is a global property. It would otherwise:
+    1) flow into referenced project compiles, and
+    2) be returned by NuGet's _GetProjectVersion as the package dependency version.
+    Result: packing IndexTTSSharp.Model 1.0.1 would depend on Gguf/Kernels 1.0.1.
+  -->
+  <ItemGroup>
+    <ProjectReference Update="@(ProjectReference)">
+      <GlobalPropertiesToRemove>%(ProjectReference.GlobalPropertiesToRemove);Version;PackageVersion</GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+
+  <Target Name="FixPackProjectReferenceVersions" AfterTargets="_GetProjectReferenceVersions">
+    <ItemGroup>
+      <_ProjectReferencesWithVersions Condition="'%(Filename)' == 'IndexTTSSharp.Gguf'">
+        <ProjectVersion>$(IndexTTSSharpGgufVersion)</ProjectVersion>
+      </_ProjectReferencesWithVersions>
+      <_ProjectReferencesWithVersions Condition="'%(Filename)' == 'IndexTTSSharp.Kernels'">
+        <ProjectVersion>$(IndexTTSSharpKernelsVersion)</ProjectVersion>
+      </_ProjectReferencesWithVersions>
+      <_ProjectReferencesWithVersions Condition="'%(Filename)' == 'IndexTTSSharp.Model'">
+        <ProjectVersion>$(IndexTTSSharpModelVersion)</ProjectVersion>
+      </_ProjectReferencesWithVersions>
+    </ItemGroup>
+  </Target>
+</Project>

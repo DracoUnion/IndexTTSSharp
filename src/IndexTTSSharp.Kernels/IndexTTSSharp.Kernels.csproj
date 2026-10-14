@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>CPU kernels for IndexTTS: quantized GEMM/GEMV plus conv/norm/attention/activation primitives.</Description>
+  </PropertyGroup>
+</Project>

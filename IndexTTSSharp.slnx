@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/IndexTTSSharp.Cli/IndexTTSSharp.Cli.csproj" />
+  <Project Path="src/IndexTTSSharp.Gguf/IndexTTSSharp.Gguf.csproj" />
+  <Project Path="src/IndexTTSSharp.Kernels/IndexTTSSharp.Kernels.csproj" />
+  <Project Path="src/IndexTTSSharp.Model/IndexTTSSharp.Model.csproj" />
+  <Project Path="tests/IndexTTSSharp.Tests/IndexTTSSharp.Tests.csproj" />
+</Solution>

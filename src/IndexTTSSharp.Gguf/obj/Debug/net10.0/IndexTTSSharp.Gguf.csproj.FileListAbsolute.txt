@@ -1,0 +1,11 @@
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\bin\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.deps.json
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\bin\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\bin\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\IndexTTSSharp.Gguf.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\IndexTTSSharp.Gguf.AssemblyInfoInputs.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\IndexTTSSharp.Gguf.AssemblyInfo.cs
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\IndexTTSSharp.Gguf.csproj.CoreCompileInputs.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\refint\Flygon.IndexTTSSharp.Gguf.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Gguf\obj\Debug\net10.0\ref\Flygon.IndexTTSSharp.Gguf.dll

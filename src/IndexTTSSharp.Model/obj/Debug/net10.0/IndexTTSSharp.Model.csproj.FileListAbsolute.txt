@@ -1,0 +1,17 @@
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Model.deps.json
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Model.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Model.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Kernels.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\bin\Debug\net10.0\Flygon.IndexTTSSharp.Gguf.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\IndexTTSSharp.Model.csproj.AssemblyReference.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\IndexTTSSharp.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\IndexTTSSharp.Model.AssemblyInfoInputs.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\IndexTTSSharp.Model.AssemblyInfo.cs
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\IndexTTSSharp.Model.csproj.CoreCompileInputs.cache
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\IndexTTS.75019039.Up2Date
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\Flygon.IndexTTSSharp.Model.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\refint\Flygon.IndexTTSSharp.Model.dll
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\Flygon.IndexTTSSharp.Model.pdb
+D:\src\IndexTTSSharp\src\IndexTTSSharp.Model\obj\Debug\net10.0\ref\Flygon.IndexTTSSharp.Model.dll

@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Flygon.IndexTTSSharp.Cli/1.0.0": {
+        "dependencies": {
+          "Flygon.IndexTTSSharp.Gguf": "1.0.0",
+          "Flygon.IndexTTSSharp.Model": "1.0.0",
+          "Flygon.IndexTTSSharp.Gguf.Reference": "1.0.0.0",
+          "Flygon.IndexTTSSharp.Kernels.Reference": "1.0.0.0",
+          "Flygon.IndexTTSSharp.Model.Reference": "1.0.0.0"
+        },
+        "runtime": {
+          "Flygon.IndexTTSSharp.Cli.dll": {}
+        }
+      },
+      "Flygon.IndexTTSSharp.Gguf/1.0.0": {
+        "runtime": {
+          "Flygon.IndexTTSSharp.Gguf.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Flygon.IndexTTSSharp.Kernels/1.0.0": {
+        "runtime": {
+          "Flygon.IndexTTSSharp.Kernels.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Flygon.IndexTTSSharp.Model/1.0.0": {
+        "dependencies": {
+          "Flygon.IndexTTSSharp.Gguf": "1.0.0",
+          "Flygon.IndexTTSSharp.Kernels": "1.0.0"
+        },
+        "runtime": {
+          "Flygon.IndexTTSSharp.Model.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Flygon.IndexTTSSharp.Gguf.Reference/1.0.0.0": {
+        "runtime": {
+          "Flygon.IndexTTSSharp.Gguf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Flygon.IndexTTSSharp.Kernels.Reference/1.0.0.0": {
+        "runtime": {
+          "Flygon.IndexTTSSharp.Kernels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Flygon.IndexTTSSharp.Model.Reference/1.0.0.0": {
+        "runtime": {
+          "Flygon.IndexTTSSharp.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flygon.IndexTTSSharp.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flygon.IndexTTSSharp.Gguf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flygon.IndexTTSSharp.Kernels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flygon.IndexTTSSharp.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flygon.IndexTTSSharp.Gguf.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flygon.IndexTTSSharp.Kernels.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flygon.IndexTTSSharp.Model.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
